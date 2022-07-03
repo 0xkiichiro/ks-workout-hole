@@ -1,0 +1,11 @@
+@import "./scss/abstracts/mixins", "./scss/abstracts/variables",
+  "./scss/abstracts/responsive";
+@import "./scss/base/reset";
+@import "./scss/components/hero", "./scss/components/nav",
+  "./scss/components/who-am-i", "./scss/components/client-testimonials";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+}

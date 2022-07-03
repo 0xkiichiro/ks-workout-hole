@@ -1,0 +1,29 @@
+.client-testimonials {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .card {
+      img {
+      }
+      .card-title {
+      }
+      .occupation {
+        color: #696c77;
+        font-style: oblique;
+        font-weight: 300;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+    }
+  }
+}

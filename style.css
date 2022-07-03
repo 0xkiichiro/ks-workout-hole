@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+@import url("http://fonts.cdnfonts.com/css/bukhari-script?styles=96108");
+@import url("http://fonts.cdnfonts.com/css/nickainley?styles=25969");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./assets/img/welcomer.JPG");
+  background-size: cover;
+  background-position: center center;
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+}
+.hero .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  width: 75%;
+  margin: 0 auto;
+  gap: 5rem;
+}
+.hero a {
+  text-decoration: none;
+}
+.hero a:hover {
+  text-shadow: 1px 1px 2px pink;
+}
+.hero .link {
+  background-color: black;
+  padding: 5px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+.hero .hero-text-1 {
+  color: hsl(323deg, 100%, 70%);
+  font-size: 3rem;
+}
+.hero .hero-text-2 {
+  color: hsl(164deg, 94%, 75%);
+  font-size: 3rem;
+}
+.hero .hero-text-3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  font-family: "Bukhari Script", sans-serif;
+  color: hsl(164deg, 94%, 75%);
+  text-shadow: 1px 1px 2px hsl(323deg, 100%, 70%);
+  font-size: 2rem;
+}
+
+.ks {
+  font-family: "Nickainley", sans-serif;
+  color: hsl(323deg, 100%, 70%);
+  text-shadow: 1px 1px 2px hsl(164deg, 94%, 75%);
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: hsl(323deg, 100%, 70%);
+}
+
+.w3 {
+  background: linear-gradient(180deg, rgb(130, 251, 219) 0%, rgb(255, 101, 195) 100%);
+}
+.w3 .who-is-k {
+  height: 40vh;
+  font-family: "Oswald", sans-serif;
+}
+.w3 .who-is-k h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  background: repeating-linear-gradient(45deg, black, black 10px, #465298 10px, #465298 20px);
+}
+.w3 .who-is-k .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.w3 .who-is-k .content img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: co;
+}
+.w3 .who-is-k .content p {
+  text-align: justify;
+  width: 500px;
+  margin: auto 0;
+  font-size: 1.2rem;
+}
+
+.client-testimonials h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+}
+.client-testimonials .cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.client-testimonials .cards-container .card .occupation {
+  color: #696c77;
+  font-style: oblique;
+  font-weight: 300;
+}
+.client-testimonials .cards-container .card .card-text {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

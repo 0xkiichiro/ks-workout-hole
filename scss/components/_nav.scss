@@ -1,0 +1,25 @@
+// https://www.cdnfonts.com/bukhari-script.font
+@import url("http://fonts.cdnfonts.com/css/bukhari-script?styles=96108");
+// https://www.cdnfonts.com/nickainley.font
+@import url("http://fonts.cdnfonts.com/css/nickainley?styles=25969");
+
+.navbar-brand {
+  font-family: "Bukhari Script", sans-serif;
+  color: $colorTeal;
+  text-shadow: 1px 1px 2px $colorPink;
+  font-size: 2rem;
+}
+
+.ks {
+  font-family: "Nickainley", sans-serif;
+  color: $colorPink;
+  text-shadow: 1px 1px 2px $colorTeal;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: $colorPink;
+  // background-color: black;
+  // display: inline;
+}
